@@ -250,6 +250,23 @@ section {
   color: var(--primary);
 }
 
+.about-text .intro {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #0f172a;
+  margin-bottom: 1rem;
+}
+
+.about-points {
+  padding-left: 1.2rem;
+  color: #334155;
+}
+
+.about-points li {
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+}
+
 .skills-box h3:first-child {
   margin-top: 0;
 }
@@ -272,6 +289,31 @@ section {
   color: #0f172a;
   border: 1px solid #e5e7eb;
 }
+
+.skill-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1.4rem;
+}
+
+.skill-chips span {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.85rem;
+  border-radius: 999px;
+  border: 1px solid #cbd5e1;
+  background-color: white;
+  color: #0f172a;
+  transition: all 0.2s ease;
+  cursor: default;
+}
+
+.skill-chips span:hover {
+  background-color: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
 
 
 /* Academic Section */
@@ -646,6 +688,7 @@ footer {
    .about-content {
     grid-template-columns: 1fr;
   }
+
 
   .skills-box {
     margin-top: 2rem;
