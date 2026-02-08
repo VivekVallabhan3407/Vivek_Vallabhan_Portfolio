@@ -208,8 +208,20 @@ section {
 /* About Section */
 .about {
   background-color: white;
-  font-size: larger;
 }
+
+.about-text p {
+  max-width: 650px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.about-text h3 {
+  margin-bottom: 1.2rem;
+  color: var(--primary);
+}
+
 
 .about-content {
   display: grid;
