@@ -62,3 +62,11 @@ function scrollToTop() {
         behavior: 'smooth'
     });
 }
+
+const form = document.querySelector("form");
+const toast = document.getElementById("toast");
+
+form.addEventListener("submit", () => {
+  toast.classList.add("show");
+  setTimeout(() => toast.classList.remove("show"), 3000);
+});
